@@ -1,0 +1,82 @@
+/* reset.css - Para resetear estilos predeterminados */
+
+/* style.css - Estilos personalizados */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título Principal */
+.titulo_principal {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contenedor Vacío */
+.vacio {
+    height: 50px; /* Ajusta según tu diseño */
+}
+
+/* Contenedores con alternancia de colores */
+.contenedor:nth-child(odd) {
+    background-color: white;
+}
+
+.contenedor:nth-child(even) {
+    background-color: lightgray;
+}
+
+/* Subtítulos */
+.subtitulo {
+    margin: 20px 0;
+}
+
+/* Listados */
+.listado {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Ítems */
+.item {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+/* Resaltado */
+.resaltado {
+    font-weight: bold;
+}
+
+/* Texto secundario */
+.texto_secundario {
+    margin-left: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Íconos en el footer */
+.instagram, .linkedin {
+    width: 20px;
+    margin: 0 5px;
+}
+
+/* Elimina los puntos de lista en las li de listado personales */
+.personales li {
+    list-style-type: none;
+}
