@@ -1,7 +1,8 @@
 # GitGithubPractica
 
-1. Working directory :spades:
+- **_Working directory_** :spades:
 
-2. Staging area :diamonds:
+- **_Staging_** area :diamonds:
 
-3. main branch :clubs:
+- **_main branch_** :clubs:
+
